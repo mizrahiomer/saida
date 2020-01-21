@@ -1,0 +1,41 @@
+.card-header .fa {
+	transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+	transform: rotate(90deg);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+div.datedropper.date {
+	--dd-color1: #78C2AD;
+	--dd-color2: #FFF;
+	--dd-color3: #4D4D4D;
+	--dd-color4: #FFF;
+	--dd-radius: 8px;
+	--dd-width: 183px;
+	--dd-shadow: 0 0 42px 0px rgba(0, 0, 0, 0.1);
+}
+
+ ::-webkit-input-placeholder {
+	text-align: right;
+}
+
+input:-moz-placeholder {
+	text-align: right;
+}
+
+input {
+	direction: rtl;
+}
+
+#add:hover {
+	cursor: pointer;
+}

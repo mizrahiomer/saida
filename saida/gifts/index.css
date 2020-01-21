@@ -1,0 +1,27 @@
+.custom-file-label::after {
+	content: "בחר";
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+	content: "בחר";
+}
+
+.custom-file-input~.custom-file-label[data-browse]::after {
+	content: attr(data-browse);
+}
+
+.card-img-top {
+	width: 100%;
+	height: 18rem;
+	object-fit: fill;
+}
+
+.ldBar-label {
+	color: black;
+	font-size: 1rem;
+}
+
+.disabledCard {
+	pointer-events: none;
+	opacity: 0.4;
+}

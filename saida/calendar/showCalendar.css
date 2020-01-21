@@ -1,0 +1,88 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.customTooltip {
+	display: none;
+}
+
+.fc-event:hover .customTooltip {
+	display: block;
+	text-align: right;
+}
+
+.fa-check {
+	color: SeaGreen;
+}
+
+.fa-times {
+	color: Tomato;
+}
+
+.LightCoral {
+	background: LightCoral;
+}
+
+.Aqua {
+	background: Aqua;
+}
+
+.CornflowerBlue {
+	background: CornflowerBlue;
+}
+
+.BlueViolet {
+	background: BlueViolet;
+}
+
+.LimeGreen {
+	background: LimeGreen;
+}
+
+.Black {
+	background: Black;
+}
+
+.Gold {
+	background: Gold;
+}
+
+#external-events {
+	position: relative;
+	z-index: 2;
+	top: 100px;
+}
+
+#external-events .fc-event {
+	cursor: grab;
+	border-radius: 10px;
+	border: none;
+}
+
+#calendar-container {
+	position: relative;
+	z-index: 1;
+	margin-left: 200px;
+}
+
+#calendar {
+	margin: auto;
+	font-size: 14px;
+}
+
+div .fc-content {
+	text-align: center;
+	padding: 3px;
+	font-size: 18px;
+}
+
+.fc-time-grid .fc-slats td {
+	height: 2em;
+	border-bottom: 0;
+}
